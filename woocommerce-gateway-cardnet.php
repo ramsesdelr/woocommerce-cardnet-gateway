@@ -71,9 +71,6 @@ function woocommerce_cardnet_init()
 
             $this->title = $this->settings['title'];
             $this->description = $this->settings['description'];
-            // $this->merchant_id = ($this->testmode == 'yes') ? $this->testmerchant_id : $this->settings['merchant_id'];
-            // $this->account_id = ($this->testmode == 'yes') ? $this->testaccount_id : $this->settings['account_id'];
-            // $this->apikey = ($this->testmode == 'yes') ? $this->testapikey : $this->settings['apikey'];
             $this->redirect_page_id = $this->settings['redirect_page_id'];
             $this->taxes = $this->settings['taxes'];
             $this->AcquiringInstitutionCode = $this->settings['AcquiringInstitutionCode'];
@@ -137,7 +134,7 @@ function woocommerce_cardnet_init()
             return $icon;
         }
         /**
-         * Check if Gateway can be display
+         * Check if Gateway can be displayed
          *
          * @access public
          * @return void
