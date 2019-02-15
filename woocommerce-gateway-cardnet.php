@@ -51,13 +51,8 @@ function woocommerce_cardnet_init()
             $this->init_form_fields();
             $this->init_settings();
             $this->language = get_bloginfo('language');
-
             $this->testmode = $this->settings['testmode'];
-            $this->testmerchant_id = '508029';
-            $this->testaccount_id = '512321';
-            $this->testapikey = '4Vj8eK4rloUd272L48hsrarnUA';
             $this->debug = "no";
-
             $this->show_methods = $this->settings['show_methods'];
             $this->icon_checkout = $this->settings['icon_checkout'];
 
